@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-//import 'package:flutter_icons/flutter_icons.dart';
-import 'package:currentemperature/firstscreen.dart';
+import 'ViewModel/firstscreen.viewmodel.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 
 void main() => runApp(MyApp());
