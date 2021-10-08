@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:currentemperature/design.dart';
-import '../ViewModel/firstscreen.viewmodel.dart';
+import '../ViewModel/firstscreen.model.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:currentemperature/Controller/firstscreen.controller.dart';
 
 class FirstScreenView extends StatefulWidget {
 

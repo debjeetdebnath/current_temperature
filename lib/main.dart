@@ -1,9 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'ViewModel/firstscreen.viewmodel.dart';
+import 'ViewModel/firstscreen.model.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:flutter/services.dart';
 
-void main() => runApp(MyApp());
+void main() async=> {
+  WidgetsFlutterBinding.ensureInitialized(),
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp],
+   ),
+  runApp(MyApp())
+};
 
 class MyApp extends StatefulWidget {
   @override
